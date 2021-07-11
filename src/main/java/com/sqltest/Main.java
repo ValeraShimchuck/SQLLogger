@@ -20,6 +20,7 @@ public class Main extends JavaPlugin {
             getLogger().info("creating cfg file & stop plugin");
             getLogger().severe("Please check new config file & rerun server");
             getConfig().options().copyDefaults(true);
+            saveDefaultConfig();
             Bukkit.getPluginManager().disablePlugin(this);
         }
         try {
