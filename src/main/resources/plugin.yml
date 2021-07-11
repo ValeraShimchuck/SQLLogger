@@ -1,0 +1,4 @@
+name: SQLtest
+version: 1.0
+main: com.sqltest.Main
+api-version: 1.13
